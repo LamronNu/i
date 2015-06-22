@@ -10,9 +10,9 @@
 | Accept | application/json |
 | Authorization | Basic ... |
 
-<a name="1_userLogin"><font color="ffoooo">
+<a name="1_userLogin"><u>
 ####1. Логин пользователя:
-</font></a>
+</u></a>
 **HTTP Metod: POST**
 
 **HTTP Context: https://server:port/wf-region/serivce/auth/login**
