@@ -1,8 +1,12 @@
 ### iGov.ua APIs
 <a name="0_contents">Contents</a>
+
 <a href="#1_userLogin">1. Логин пользователя</a>
+
 <a href="#2_userLogout">2. Логаут пользователя</a>
+
 <a href="#3_activitiRun">3. Запуск процесса Activiti</a>
+
 
 ##### Mandatory HTTP Headers
 
@@ -45,6 +49,7 @@ false - Имя пользователя или пароль не коррект�
 <a name="2_userLogout">
 #### 2. Логаут пользователя:
 </a><a href="#0_contents">↑Up</a>
+
 **HTTP Metod: POST/DELETE**
 
 **HTTP Context: https://server:port/wf-region/serivce/auth/logout**
@@ -63,6 +68,7 @@ false - Имя пользователя или пароль не коррект�
 <a name="3_activitiRun">
 #### 3. Запуск процесса Activiti:
 </a><a href="#0_contents">↑Up</a>
+
 **HTTP Metod: GET**
 
 **HTTP Context: https://server:port/wf-region/serivce/rest/start-process/{key}**
