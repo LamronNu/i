@@ -12,7 +12,8 @@
 
 <a name="1_userLogin">
 ####1. Логин пользователя:
-</a><a href="#0_contents">↑Up↑</a>
+</a><a href="#0_contents">↑Up</a>
+
 **HTTP Metod: POST**
 
 **HTTP Context: https://server:port/wf-region/serivce/auth/login**
