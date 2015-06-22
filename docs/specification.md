@@ -10,7 +10,7 @@
 | Accept | application/json |
 | Authorization | Basic ... |
 
-<a name="1_userLogin"><font color="FF00CC">
+<a name="1_userLogin"><font color="ffoooo">
 ####1. Логин пользователя:
 </font></a>
 **HTTP Metod: POST**
