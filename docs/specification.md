@@ -1,6 +1,6 @@
 ### iGov.ua APIs
 
-<a href="#### 1. Логин пользователя">1. Логин пользователя:</a>
+<a href="#1_userLogin">1. Логин пользователя:</a>
 
 ##### Mandatory HTTP Headers
 
@@ -10,7 +10,7 @@
 | Accept | application/json |
 | Authorization | Basic ... |
 
-#### 1. Логин пользователя:
+<a name="1_userLogin"> #### 1. Логин пользователя:</a>
 
 **HTTP Metod: POST**
 
