@@ -10,7 +10,7 @@
 | Accept | application/json |
 | Authorization | Basic ... |
 
-<a name="1_userLogin"></a>####1. Логин пользователя:
+####1. Логин пользователя:<a name="1_userLogin"></a>
 
 **HTTP Metod: POST**
 
