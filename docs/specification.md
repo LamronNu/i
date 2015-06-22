@@ -16,7 +16,7 @@ else in the doc, define the link:
 | Authorization | Basic ... |
 
 <a name="1_userLogin">
-_####1. Логин пользователя:####_
+_1. Логин пользователя:_
 </a>
 **HTTP Metod: POST**
 
