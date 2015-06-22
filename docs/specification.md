@@ -1,4 +1,9 @@
 ### iGov.ua APIs
+An [example][id]. Then, anywhere
+else in the doc, define the link:
+
+  [id]: http://example.com/  "Title"
+
 
 <a href="#1_userLogin">1. Логин пользователя:</a>
 
@@ -10,9 +15,9 @@
 | Accept | application/json |
 | Authorization | Basic ... |
 
-<a name="1_userLogin"><u>
-####1. Логин пользователя:
-</u></a>
+<a name="1_userLogin">
+_####1. Логин пользователя:####_
+</a>
 **HTTP Metod: POST**
 
 **HTTP Context: https://server:port/wf-region/serivce/auth/login**
