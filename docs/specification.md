@@ -1,9 +1,4 @@
 ### iGov.ua APIs
-An [example][id]. Then, anywhere
-else in the doc, define the link:
-
-  [id]: http://example.com/  "Title"
-
 
 <a href="#1_userLogin">1. Логин пользователя:</a>
 
@@ -16,7 +11,7 @@ else in the doc, define the link:
 | Authorization | Basic ... |
 
 <a name="1_userLogin">
-__1. Логин пользователя:__
+####1. Логин пользователя:
 </a>
 **HTTP Metod: POST**
 
