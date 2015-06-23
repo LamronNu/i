@@ -9,7 +9,7 @@
 <a href="#7_workWithMerchants">7. Работа с мерчантами</a><br/>
 <a href="#8_workWithTables">8. Бэкап/восстановление данных таблиц сервисов и мест</a><br/>
 <a href="#9_workWithDocuments">9. Работа с документами</a><br/>
-<a href="#10_workWithSubjects">10. Работа с субъктами</a><br/>
+<a href="#10_workWithSubjects">10. Работа с субъектами</a><br/>
 <a href="#11_accessDocuments">11. Предоставление и проверка доступа к документам</a><br/>
 <a href="#12_workWithMessages">12. Работа с сообщениями</a><br/>
 <a href="#13_workWithHistoryEvents">13. Работа с историей (Мой журнал)</a><br/>
@@ -371,7 +371,7 @@ https://poligon.igov.org.ua/wf-central/service/services/getDocumentFile?nID=1
 * nID_Subject - ИД-номер субъекта
 
 Пример:
-https://poligon.igov.org.ua/wf-central/service/services/getDocuments?nID_Subject=2
+**HTTP Context: https://poligon.igov.org.ua/wf-central/service/services/getDocuments?nID_Subject=2**
 
 **Response**
 ```json
@@ -426,7 +426,7 @@ https://poligon.igov.org.ua/wf-central/service/services/getDocuments?nID_Subject
 * nID_Subject - ИД-номер субъекта докуиента (владельца)
 
 Пример:
-https://poligon.igov.org.ua/wf-central/service/services/setDocument?sID_Subject_Upload=123&sSubjectName_Upload=Vasia&sName=Pasport&sFile=file.txt&nID_DocumentType=1&sDocumentContentType=application/zip&soDocumentContent=ffffffffffffffffff&nID_Subject=1
+**HTTP Context:https://poligon.igov.org.ua/wf-central/service/services/setDocument?sID_Subject_Upload=123&sSubjectName_Upload=Vasia&sName=Pasport&sFile=file.txt&nID_DocumentType=1&sDocumentContentType=application/zip&soDocumentContent=ffffffffffffffffff&nID_Subject=1**
 
 **Response**
 ИД ДОКУМЕНТА
@@ -454,7 +454,7 @@ https://poligon.igov.org.ua/wf-central/service/services/setDocument?sID_Subject_
 --------------------------------------------------------------------------------------------------------------------------
 
 <a name="10_workWithSubjects">
-####10. Работа с субъктами
+####10. Работа с субъектами
 </a><a href="#0_contents">↑Up</a><br/>
 
 **HTTP Metod: GET**
