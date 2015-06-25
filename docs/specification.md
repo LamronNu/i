@@ -30,7 +30,7 @@
 
 **HTTP Metod: POST**
 
-**HTTP Context: https://server:port/wf-region/serivce/auth/login**
+**HTTP Context: https://server:port/wf-region/service/auth/login**
 
 | Name        | Value           |
 | ------------- |:-------------:|
@@ -60,7 +60,7 @@ false - Имя пользователя или пароль не коррект�
 
 **HTTP Metod: POST/DELETE**
 
-**HTTP Context: https://server:port/wf-region/serivce/auth/logout**
+**HTTP Context: https://server:port/wf-region/service/auth/logout**
 
 Наличие cookie JSESSIONID
 
@@ -79,7 +79,7 @@ false - Имя пользователя или пароль не коррект�
 
 **HTTP Metod: GET**
 
-**HTTP Context: https://server:port/wf-region/serivce/rest/start-process/{key}**
+**HTTP Context: https://server:port/wf-region/service/rest/start-process/{key}**
 
 * {key} - Ключ процесса
 
@@ -96,7 +96,7 @@ false - Имя пользователя или пароль не коррект�
 </a><a href="#0_contents">↑Up</a><br/>
 **HTTP Metod: GET**
 
-**HTTP Context: https://server:port/wf-region/serivce/rest/tasks/{assignee}**
+**HTTP Context: https://server:port/wf-region/service/rest/tasks/{assignee}**
 
 * {assignee} - Владелец
 
@@ -132,7 +132,7 @@ false - Имя пользователя или пароль не коррект�
 </a><a href="#0_contents">↑Up</a><br/>
 **HTTP Metod: GET**
 
-**HTTP Context: https://server:port/wf-region/serivce/rest/process-definitions**
+**HTTP Context: https://server:port/wf-region/service/rest/process-definitions**
 
 **Response**
 
@@ -371,7 +371,7 @@ https://poligon.igov.org.ua/wf-central/service/services/getDocumentFile?nID=1
 * nID_Subject - ИД-номер субъекта
 
 Пример:
-**HTTP Context: https://poligon.igov.org.ua/wf-central/service/services/getDocuments?nID_Subject=2**
+https://poligon.igov.org.ua/wf-central/service/services/getDocuments?nID_Subject=2
 
 **Response**
 ```json
@@ -426,7 +426,7 @@ https://poligon.igov.org.ua/wf-central/service/services/getDocumentFile?nID=1
 * nID_Subject - ИД-номер субъекта докуиента (владельца)
 
 Пример:
-**HTTP Context:https://poligon.igov.org.ua/wf-central/service/services/setDocument?sID_Subject_Upload=123&sSubjectName_Upload=Vasia&sName=Pasport&sFile=file.txt&nID_DocumentType=1&sDocumentContentType=application/zip&soDocumentContent=ffffffffffffffffff&nID_Subject=1**
+https://poligon.igov.org.ua/wf-central/service/services/setDocument?sID_Subject_Upload=123&sSubjectName_Upload=Vasia&sName=Pasport&sFile=file.txt&nID_DocumentType=1&sDocumentContentType=application/zip&soDocumentContent=ffffffffffffffffff&nID_Subject=1
 
 **Response**
 ИД ДОКУМЕНТА
@@ -625,7 +625,7 @@ https://poligon.igov.org.ua/wf-central/service/messages/getMessage?nID=76
 https://poligon.igov.org.ua/wf-central/service/messages/setMessage?sHead=name&sBody=body&sMail=a@a.a
 
 Ответ:
-```text Status 200 если Ok```
+ Status 200 если Ok
 
 --------------------------------------------------------------------------------------------------------------------------
 
